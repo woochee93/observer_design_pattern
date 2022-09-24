@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# Formatting
+.clang-format
+
+# Folders
+build
+.vscode
