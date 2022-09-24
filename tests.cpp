@@ -1,12 +1,10 @@
 #include <iostream>
 #include "gtest/gtest.h"
+#include "./include/Elevator.hpp"
 
-TEST(Suit, suit1) {
-  Calc c;
-  EXPECT_EQ(8, 3);
-}
-
-TEST(Suit, suit) {
-  Calc c;
-  EXPECT_EQ(3, 2);
+TEST(Elevator, tryInitElevator)
+{
+  size_t one = 1;
+  utils::Elevator e{1, 1, one};
+  EXPECT_EQ(e.getMinFloor(), one);
 }
