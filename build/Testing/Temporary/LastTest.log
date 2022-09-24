@@ -1,0 +1,57 @@
+Start testing: Sep 24 21:30 CEST
+----------------------------------------------------------
+1/2 Testing: Elevator.elevGoUpAndPassangerWantGoDownReturnOne
+1/2 Test: Elevator.elevGoUpAndPassangerWantGoDownReturnOne
+Command: "/home/acad/Desktop/zadania/Zadanka/build/testy" "--gtest_filter=Elevator.elevGoUpAndPassangerWantGoDownReturnOne" "--gtest_also_run_disabled_tests"
+Directory: /home/acad/Desktop/zadania/Zadanka/build
+"Elevator.elevGoUpAndPassangerWantGoDownReturnOne" start time: Sep 24 21:30 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/acad/Desktop/zadania/Zadanka/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Elevator.elevGoUpAndPassangerWantGoDownReturnOne
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Elevator
+[ RUN      ] Elevator.elevGoUpAndPassangerWantGoDownReturnOne
+[       OK ] Elevator.elevGoUpAndPassangerWantGoDownReturnOne (0 ms)
+[----------] 1 test from Elevator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Elevator.elevGoUpAndPassangerWantGoDownReturnOne" end time: Sep 24 21:30 CEST
+"Elevator.elevGoUpAndPassangerWantGoDownReturnOne" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: Elevator.tryInitElevator
+2/2 Test: Elevator.tryInitElevator
+Command: "/home/acad/Desktop/zadania/Zadanka/build/testy" "--gtest_filter=Elevator.tryInitElevator" "--gtest_also_run_disabled_tests"
+Directory: /home/acad/Desktop/zadania/Zadanka/build
+"Elevator.tryInitElevator" start time: Sep 24 21:30 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/acad/Desktop/zadania/Zadanka/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Elevator.tryInitElevator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Elevator
+[ RUN      ] Elevator.tryInitElevator
+[       OK ] Elevator.tryInitElevator (0 ms)
+[----------] 1 test from Elevator (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Elevator.tryInitElevator" end time: Sep 24 21:30 CEST
+"Elevator.tryInitElevator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 24 21:30 CEST

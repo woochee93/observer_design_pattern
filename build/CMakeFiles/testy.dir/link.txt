@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/testy.dir/tests.cpp.o CMakeFiles/testy.dir/src/Elevator.cpp.o -o testy  lib/libgtest_main.a lib/libgtest.a 

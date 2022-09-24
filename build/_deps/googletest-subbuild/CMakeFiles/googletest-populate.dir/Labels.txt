@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+/home/acad/Desktop/zadania/Zadanka/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+/home/acad/Desktop/zadania/Zadanka/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+/home/acad/Desktop/zadania/Zadanka/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+/home/acad/Desktop/zadania/Zadanka/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+/home/acad/Desktop/zadania/Zadanka/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+/home/acad/Desktop/zadania/Zadanka/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+/home/acad/Desktop/zadania/Zadanka/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+/home/acad/Desktop/zadania/Zadanka/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+/home/acad/Desktop/zadania/Zadanka/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+/home/acad/Desktop/zadania/Zadanka/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
+/home/acad/Desktop/zadania/Zadanka/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule

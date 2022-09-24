@@ -1,0 +1,3 @@
+Elevator.elevGoUpAndPassangerWantGoDownReturnOne 4 0.00114665
+Elevator.tryInitElevator 4 0.00287802
+---
