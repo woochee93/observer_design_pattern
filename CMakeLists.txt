@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.0)
 project(testowanko)
-add_executable(apka main.cpp Calc.cpp)
+add_executable(apka main.cpp )
 
 
 
-add_executable(testy  tests.cpp Calc.cpp)
+add_executable(testy  tests.cpp )
 
 include(FetchContent)
 FetchContent_Declare(
