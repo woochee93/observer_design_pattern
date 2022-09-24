@@ -19,5 +19,6 @@ class Elevator {
   void setRequest();
   int checkRequest(int floor);
   int isValidRequest(int floor);
+  void set_direction(int floor);
 };
 }  // namespace utils
