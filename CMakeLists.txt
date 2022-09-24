@@ -4,7 +4,7 @@ add_executable(apka main.cpp )
 
 
 
-add_executable(testy  tests.cpp )
+add_executable(testy  tests.cpp src/Elevator.cpp )
 
 include(FetchContent)
 FetchContent_Declare(
