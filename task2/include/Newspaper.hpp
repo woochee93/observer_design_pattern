@@ -1,14 +1,17 @@
+#include <algorithm>
+#include <vector>
 #include "IObserver.hpp"
 #include "ISub.hpp"
-#include <vector>
 class Newspaper : public IObserver {
-private:
-  std::vector<ISub *> subscribers{};
+ private:
+  std::string title{};
+  std::vector<ISub*> subscribers{};
 
-public:
+ public:
   void notify() override final;
-  void addSub() override final;
-  void removeSub() override final;
+  void addSub(ISub* sub) override final;
+  void removeSub(ISub* sub) override final;
+  void realese(const std::string& m_title);
   //   virtual ~Newspaper();
   ~Newspaper();
 };
