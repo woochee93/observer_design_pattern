@@ -1,7 +1,7 @@
 #pragma once
 #include "ISub.hpp"
 #include <iostream>
-class Customer : ISub {
+class Customer : public ISub {
   std::string name{};
 
 public:

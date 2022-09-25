@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.0)
 project(testowanko)
-add_executable(apka main.cpp )
+add_executable(apka main.cpp src/Customer.cpp src/Newspaper.cpp include/IObserver.hpp include/ISub.hpp)
 
 
 
-add_executable(testy  tests.cpp src/Elevator.cpp )
+add_executable(testy  tests.cpp)
 
 include(FetchContent)
 FetchContent_Declare(
