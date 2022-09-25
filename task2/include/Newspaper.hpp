@@ -13,4 +13,5 @@ public:
   void addSub(ISub *sub) override final;
   void removeSub(ISub *sub) override final;
   void realese(const std::string &m_title);
+  ~Newspaper() = default;
 };
