@@ -3,7 +3,8 @@ project(testowanko)
 add_executable(apka main.cpp src/Customer.cpp src/Newspaper.cpp include/IObserver.hpp include/ISub.hpp)
 
 
-
+add_compile_options(-ggdb -Wall -Wextra -pedantic -Werror )
+#//-fsanitize=address
 add_executable(testy  tests.cpp)
 
 include(FetchContent)

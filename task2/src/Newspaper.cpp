@@ -1,10 +1,10 @@
 #include "../include/Newspaper.hpp"
 
-void Newspaper::addSub(ISub* sub) {
+void Newspaper::addSub(std::shared_ptr<ISub> sub) {
   subscribers.push_back(sub);
 }
 
-void Newspaper::removeSub(ISub* sub) {
+void Newspaper::removeSub(std::shared_ptr<ISub> sub) {
   auto it = std::find(subscribers.begin(), subscribers.end(), sub);
 
   if (it != subscribers.end()) {
