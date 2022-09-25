@@ -1,6 +1,6 @@
-#include <iostream>
 #include "./include/Elevator.hpp"
 #include "gtest/gtest.h"
+#include <iostream>
 
 TEST(Elevator, printVec) {
   size_t one = 1;

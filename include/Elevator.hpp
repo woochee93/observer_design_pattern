@@ -1,7 +1,7 @@
 #pragma once
+#include "Direction.hpp"
 #include <iostream>
 #include <vector>
-#include "Direction.hpp"
 namespace utils {
 class Elevator {
   int min_floor{};
@@ -12,7 +12,7 @@ class Elevator {
   int current_floor{};
   size_t passengers{};
 
- public:
+public:
   Elevator(int min_f, int max_f, size_t cap);
   int getMinFloor();
   void startElevator();
@@ -22,4 +22,4 @@ class Elevator {
   void set_direction(int floor);
   void printVec();
 };
-}  // namespace utils
+} // namespace utils
