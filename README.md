@@ -1,1 +1,1 @@
-# Zadanka Hello World
+example of an observer design pattern
